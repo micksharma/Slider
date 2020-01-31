@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    background: #313131;
+
+}
+.slider{
+    width:800px;
+    height:400px;
+    background: url(action-blur-car-child-386009.jpg);
+    margin:100px auto;
+    animation: slide 20s infinite;
+
+}
+@keyframes slide{
+    25%{
+        background: url(white-airliner-wing-on-top-of-sea-clouds-2007401.jpg)
+    }
+    50%{
+        background:url(man-standing-on-a-rock-1271619.jpg);
+
+    }
+    75%{
+        background:url(woman-taking-pictures-of-ruins-2087391.jpg);
+
+    }
+    100%{
+        background:url(action-blur-car-child-386009.jpg);
+
+    }
+    
+
+}
